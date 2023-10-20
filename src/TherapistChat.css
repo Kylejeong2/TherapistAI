@@ -1,0 +1,58 @@
+.chat-container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .chat {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .chat-message {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+    max-width: 70%;
+  }
+  
+  .user {
+    background-color: #0074D9;
+    color: #fff;
+    align-self: flex-end;
+  }
+  
+  .therapist {
+    background-color: #fff;
+    color: #000;
+    align-self: flex-start;
+  }
+  
+  .input-container {
+    display: flex;
+    padding: 10px;
+    background-color: #f8f8f8;
+  }
+  
+  input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+  }
+  
+  button {
+    background-color: #0074D9;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
